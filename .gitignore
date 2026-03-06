@@ -1,0 +1,71 @@
+# datasets
+*.zip
+train2017/
+val2017/
+annotations/
+
+# YOLO model weights
+*.pt
+
+# Python cache
+__pycache__/
+
+# logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# IDE settings
+.idea/
+
+# Logs
+logs/
+
+# Datasets
+*.zip
+train2017/
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# IDE settings
+.idea/
+
+# Logs
+logs/
+
+# Datasets
+*.zip
+train2017/
+val2017/
+annotations/
+
+# YOLO model weights
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.dbval2017/
+annotations/
+
+# YOLO model weights
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db 
+
