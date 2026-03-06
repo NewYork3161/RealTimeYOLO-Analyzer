@@ -4,53 +4,42 @@
 
 ---
 
-# **Project Overview**
+# **Overview**
 
-**RealTimeYOLO Analyzer** is a **real-time computer vision analytics platform** designed to demonstrate how a modern artificial intelligence system can be built, monitored, analyzed, and improved using professional software engineering practices.
+**RealTimeYOLO Analyzer** is a **real-time computer vision analytics platform** designed to demonstrate how a modern artificial intelligence system can be built, monitored, evaluated, and improved using professional software engineering practices.
 
-The system uses **YOLOv8 object detection** to analyze video frames captured from a webcam. Each frame is processed by a neural network that identifies objects present in the image. The system records performance metrics such as **inference time, detection counts, and frame processing statistics**, allowing developers to analyze how the AI model behaves over time.
+The system captures live webcam frames and processes them using **YOLOv8 object detection**. Each frame is analyzed by a deep neural network capable of identifying multiple object classes simultaneously.
 
-Unlike simple demonstration projects that only show object detection results, this project focuses on building a **complete AI pipeline** that includes:
+In addition to performing object detection, the system records **performance metrics**, generates **analytics**, and visualizes system behavior through **data-driven charts**.
 
-- **Real-time computer vision**
-- **Model inference**
-- **Data logging**
-- **Performance analytics**
-- **Visualization of system behavior**
-- **Automated unit testing**
-- **Modular architecture for maintainability**
+This project demonstrates the type of **end-to-end AI pipeline engineering** required in real-world machine learning systems.
 
-This approach mirrors how **machine learning systems are engineered and deployed in production environments**.
+Instead of simply detecting objects, the system is designed to answer important engineering questions such as:
 
-The goal of this project is to demonstrate both **AI engineering capability and production-quality software design**.
+- How fast does the model run?
+- How stable is inference performance?
+- How many objects appear per frame?
+- Does the model behave consistently over time?
+
+Understanding these questions is critical when deploying AI systems into production environments.
 
 ---
 
-# **Why This Project Is Important**
+# **Project Goals**
 
-Most object detection projects simply demonstrate that a neural network can identify objects in images. However, real-world systems require much more than that.
+The primary goal of this project is to demonstrate the ability to build a **complete artificial intelligence pipeline** that includes:
 
-Companies deploying AI systems must understand:
+• **Real-time object detection**  
+• **Performance monitoring**  
+• **Structured logging of system metrics**  
+• **Data analysis of detection behavior**  
+• **Visualization of system performance**  
+• **Automated testing of core components**
 
-- How fast the system runs
-- How reliable the detection results are
-- How the model behaves under different conditions
-- Whether the system scales to real workloads
-- How performance evolves over time
-
-This project demonstrates how an AI system can be built with **monitoring, analysis, and evaluation tools**, enabling engineers to make informed decisions about system optimization.
-
-By recording and visualizing performance data, developers can determine whether the system is suitable for applications such as:
-
-- **Security monitoring**
-- **Retail analytics**
-- **autonomous robotics**
-- **traffic monitoring**
-- **industrial automation**
-- **quality inspection systems**
+These capabilities represent the type of functionality required in **production-grade machine learning systems**.
 
 ---
 
 # **System Architecture**
 
-The project follows a modular architecture designed to mirror how professional AI systems are structured.
+The system is designed using a modular architecture where each component performs a specific role.
